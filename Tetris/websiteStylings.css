@@ -1,0 +1,33 @@
+ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+  }
+li {
+    float: left;
+    margin: 0 20px;
+  }
+li a{
+    font-weight: bold;
+    font-family: Arial;
+    size: 12px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #213f85;
+}
+.main{
+    background-image: url(images/tetris.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    width: 95%;
+    background-position: center;
+    height: 750px;
+}
